@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".features.AddMemberActivity"
+    android:background="@drawable/full_black"
+   >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="147dp"
+        app:srcCompat="@drawable/home_heart" />
+
+    <TextView
+        android:id="@+id/tvPageTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/architects_daughter"
+        android:text="Want to add a Kin?"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="monospace"
+        android:text="So, what is their name?"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent" >-->
+
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+    <EditText
+        android:id="@+id/etNickname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/white"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tvNickname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="monospace"
+        android:text="And now, the cool Nickname?"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+
+    <!--    <com.google.android.material.textfield.TextInputLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" >-->
+
+    <!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:textColor="@color/white" />
+
+    <RelativeLayout
+        android:id="@+id/relationBox"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:gravity="center">
+    <TextView
+        android:id="@+id/tvRelation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Relation?"
+        android:fontFamily="monospace"
+        android:textColor="@color/white"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etRelation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:layout_toRightOf="@id/tvRelation"
+        android:layout_marginLeft="10dp"
+        android:inputType="text"
+        android:textColor="@color/white"
+       />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ageBox"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:gravity="center">
+    <TextView
+        android:id="@+id/tvAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Been inspiring since? (Haha.. Age? ) "
+        android:fontFamily="monospace"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:layout_toRightOf="@id/tvAge"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/white"
+        android:inputType="number"
+        />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/kidBox"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvkid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comes under monitoring? - (Kid ?) "
+            android:fontFamily="monospace"
+            android:textColor="@color/white"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold" />
+        <Switch
+            android:id="@+id/toggleSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:layout_toRightOf="@id/tvkid"
+            android:shadowColor="@color/teal_200"
+            android:layout_marginBottom="10dp" />
+
+    </RelativeLayout>
+
+
+
+<!--    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--        android:id="@+id/checkboxes"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_height="fill_parent">-->
+<!--        <CheckBox android:id="@+id/checkbox_mon"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="M"-->
+<!--            android:onClick="onCheckboxClicked"/>-->
+<!--        <CheckBox android:id="@+id/checkbox_tue"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="T"-->
+<!--            android:onClick="onCheckboxClicked"/>-->
+<!--        <CheckBox android:id="@+id/checkbox_wed"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="W"-->
+<!--            android:onClick="onCheckboxClicked"/>-->
+<!--        <CheckBox android:id="@+id/checkbox_thu"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Th"-->
+<!--            android:onClick="onCheckboxClicked"/>-->
+<!--        <CheckBox android:id="@+id/checkbox_fri"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="F"-->
+<!--            android:onClick="onCheckboxClicked"/>-->
+<!--        <CheckBox android:id="@+id/checkbox_sat"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="S"-->
+<!--            android:onClick="onCheckboxClicked"/>-->
+<!--        <CheckBox android:id="@+id/checkbox_sun"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Su"-->
+<!--            android:onClick="onCheckboxClicked"/>-->
+<!--    </LinearLayout>-->
+
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_accent"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@color/teal_200"
+        android:layout_marginTop="16dp"
+        android:text="Add member" />
+
+
+
+</LinearLayout>
