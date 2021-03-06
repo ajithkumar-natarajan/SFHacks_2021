@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_kids"
+        android:icon="@drawable/ic_baseline_child_care_24"
+        android:title="Kids"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_vaccines"
+        android:icon="@drawable/ic_baseline_coronavirus_24"
+        android:title="Vaccines"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_user"
+        android:icon="@drawable/ic_settings"
+        android:title="Settings"
+        app:showAsAction="always" />
+</menu>
