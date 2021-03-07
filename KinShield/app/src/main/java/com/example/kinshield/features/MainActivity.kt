@@ -20,8 +20,8 @@ class MainActivity : AppCompatActivity() {
                 KidsFragment()
         val vaccinesFragment =
                 VaccinesFragment()
-        val settingsFragment =
-                SettingsFragment()
+//        val settingsFragment =
+//                SettingsFragment()
 
         makeCurrentFragment(homeFragment)
         bottomNavigationView.setOnNavigationItemSelectedListener { menuItem ->
@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.action_home -> makeCurrentFragment(homeFragment)
                 R.id.action_kids -> makeCurrentFragment(kidsFragment)
                 R.id.action_vaccines -> makeCurrentFragment(vaccinesFragment)
-                R.id.action_user -> makeCurrentFragment(settingsFragment)
+//                R.id.action_user -> makeCurrentFragment(settingsFragment)
             }
             true
         }
