@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KinShield">
         <activity android:name=".features.AddMemberActivity"  android:theme="@style/Theme.NoActionBar"/>
+        <activity android:name=".features.DetailsActivity"  android:theme="@style/Theme.NoActionBar"/>
         <activity android:name=".features.MainActivity" android:theme="@style/Theme.MainActi">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
