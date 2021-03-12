@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "40976198115",
+    "project_id": "kinshield-7874c",
+    "storage_bucket": "kinshield-7874c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:40976198115:android:79f7f9d698740f0a93d8d6",
+        "android_client_info": {
+          "package_name": "com.example.kinshield"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "40976198115-v4ccq411okt93jtgcotjp5sqe8ncl8dv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAW_KN568r9ROFZvOT20I0c0Vn5t-kC77o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "40976198115-v4ccq411okt93jtgcotjp5sqe8ncl8dv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
