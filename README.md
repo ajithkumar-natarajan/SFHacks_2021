@@ -13,7 +13,6 @@ Kids are monitored by parents using the app. Daily safety activities (washing ha
 
 **Website:** The website has been built using HTML, CSS & JavaScript. It has been connected with Firebase project as well. Python scripts were used to scrape data from the websites - _RiteAid_ and _Walgreens_. The Notivize app is used to send alert notifications to the users when they meet the criteria to get vaccines in their nearby region and is integrated with Python.
 
-
 ## Challenges we ran into
 Scraping from Walgreens and RiteAid websites was not simple since they did not pass the location information through URL. Instead, this was the first time we worked on scraping websites that used XHR requests. It was fun inspecting the network activity and finally end up scraping.
 
@@ -30,3 +29,5 @@ So many things - working with Google Firebase, scraping XHR requests, hosting on
 ## What's next for KinShield
 We would like to complete a few of the targets that we couldn't- have the web app on a GKE and scale it to consumer needs; complete the GCP Cloud Function integration and finally release it to the well-being of society :)
 
+## Demo
+[![YouTube video of KinShield's Demo](https://img.youtube.com/vi/2q0bxSkcc4g/0.jpg)](https://www.youtube.com/watch?v=2q0bxSkcc4g)
